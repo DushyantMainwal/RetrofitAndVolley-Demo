@@ -26,46 +26,19 @@
             android:text="Get Users List" />
 
         <Button
-            android:id="@+id/singleUser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="Get Single User" />
-
-        <Button
             android:id="@+id/createUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Create User" />
+            android:text="Create User (POST)" />
 
         <Button
             android:id="@+id/createUserField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Create User With Field" />
+            android:text="Get with GSON Custom Request" />
 
-        <Button
-            android:id="@+id/putUserData"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="Put User Data" />
-
-        <Button
-            android:id="@+id/patchUserData"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="Patch User Data" />
-
-        <Button
-            android:id="@+id/deleteData"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="Delete Data" />
 
     </LinearLayout>
 
